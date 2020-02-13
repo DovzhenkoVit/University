@@ -28,6 +28,7 @@ class Ui_MainWindow(object):
         self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit.setGeometry(QtCore.QRect(130, 40, 113, 20))
         self.lineEdit.setObjectName("lineEdit")
+        self.lineEdit.setValidator(QIntValidator(1, 999))
         self.lineEdit_2 = QtWidgets.QLineEdit(self.centralwidget)
         self.lineEdit_2.setGeometry(QtCore.QRect(130, 80, 113, 20))
         self.lineEdit_2.setObjectName("lineEdit_2")
