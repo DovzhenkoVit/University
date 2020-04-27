@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>512</width>
+    <height>331</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Кафе &quot;Студент&quot;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="listMenu">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>150</width>
+      <height>112</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Вівсяна каша</string>
+     </property>
+     <property name="font">
+      <font>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Омлет з сиром</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Млинці з курятиною</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Деруни з грибами</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Вареники з капустою</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Суп гречаний</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Салат весняний</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="button_Add">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>150</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Додати</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_Buy">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>190</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Замовити</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_Remove">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>124</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Видалити</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Menu">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>30</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>МЕНЮ</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Order">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>30</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ЗАМОВЛЕННЯ</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listOrder">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>60</y>
+      <width>150</width>
+      <height>112</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_RemAll">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>150</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Видалити все</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
