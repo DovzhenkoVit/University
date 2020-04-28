@@ -17,6 +17,7 @@ class mywindow(QtWidgets.QMainWindow):
         self.button_Add.clicked.connect(self.btnAddClicked)
         self.button_Remove.clicked.connect(self.btnRemoveClicked)
         self.button_RemAll.clicked.connect(self.btnRemAllClicked)
+        self.button_Buy.clicked.connect(self.btnBuyClicked)
 
 
     def btnAddClicked(self):
@@ -26,8 +27,13 @@ class mywindow(QtWidgets.QMainWindow):
     	self.listOrder.takeItem(self.listOrder.currentRow())
 
     def btnRemAllClicked(self):
-    	self.listOrder.clear()
+        self.listOrder.clear()
 
+    def btnBuyClicked(self):
+        msg = QMessageBox()
+        msg.setIcon(QMessageBox.Information)
+        msg.setText("Смачного")
+        msg.exec()
 
 app = QtWidgets.QApplication([])
 application = mywindow()
